@@ -1,0 +1,22 @@
+# Created at 2021-09-10T09:20:50.153
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-09-10T09:20:59.613
+Unexpected IOException with stream: Sep 10, 2021 9:20:59 AM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 2 (Exit value: 2)
+
+
+# Created at 2021-09-10T09:20:59.633
+Unexpected IOException: 8,1,com.sample.test.TestDemo,browserLaunch(com.sample.test.TestDemo),null,Timed out waiting for driver server to start.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LHTU05CG034592N'\002C ip: '10.99.145.169'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_292'\000ADriver info: driver.version: ChromeDriver,null,Timed out waiting for driver server to start.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LHTU05CG034592N'\002C ip: '10.99.145.169'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_292'\000ADriver info: driver.version: ChromeDriver,TestDemo.browserLaunch:14 \00BB WebDriver Timed out waiting for driver server to s...,org.openqa.selenium.WebDriverException: \000ATimed out waiting for driver server to start.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LHTU05CG034592N'\002C ip: '10.99.145.169'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_292'\000ADriver info: driver.version: ChromeDriver\000A\0009at com.sample.test.TestDemo.browserLaunch(TestDemo.java:14)\000ACaused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11102/status] to be available after 20004 ms\000A\0009at com.sample.test.TestDemo.browserLaunch(TestDemo.java:14)\000ACaused by: java.util.concurrent.TimeoutException\000A\0009at com.sample.test.TestDemo.browserLaunch(TestDemo.java:14)\000A
+
+
+# Created at 2021-09-10T09:20:59.793
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
