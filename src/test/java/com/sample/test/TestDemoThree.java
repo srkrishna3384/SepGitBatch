@@ -14,6 +14,10 @@ public class TestDemoThree {
 		System.out.println();
 		System.out.println("TestDemoThree");
 		System.out.println();
+		System.out.println("Person2 updates in TestDemoThree");
+		System.out.println();
+		System.out.println("Person2 updates in TestDemoThree");
+		System.out.println();
 		
 	}
 
